@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "creation": "2022-04-14 10:45:30.420830",
+ "doctype": "DocType",
+ "document_type": "System",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "salesforce_integration_tab",
+  "request_url",
+  "sf_client_id",
+  "sf_client_secret_key",
+  "column_break_5",
+  "access_token",
+  "username",
+  "password",
+  "test_sf_connection",
+  "import_update_data_from_salesforce_tab",
+  "from_date",
+  "to_date",
+  "notes",
+  "column_break_14",
+  "import_contact",
+  "import_lead",
+  "import_opportunity",
+  "import_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "salesforce_integration_tab",
+   "fieldtype": "Tab Break",
+   "label": "Salesforce Integration"
+  },
+  {
+   "fieldname": "request_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Request URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sf_client_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Salesforce Client Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sf_client_secret_key",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Salesforce Client Secret key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "access_token",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Access Token",
+   "reqd": 1
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_sf_connection",
+   "fieldtype": "Button",
+   "label": "Test Salesforce Connection"
+  },
+  {
+   "fieldname": "import_contact",
+   "fieldtype": "Button",
+   "label": "Import / Update Contact"
+  },
+  {
+   "fieldname": "import_lead",
+   "fieldtype": "Button",
+   "label": "Import / Update Lead"
+  },
+  {
+   "fieldname": "import_update_data_from_salesforce_tab",
+   "fieldtype": "Tab Break",
+   "label": "Import / Update Data from Salesforce"
+  },
+  {
+   "fieldname": "import_opportunity",
+   "fieldtype": "Button",
+   "label": "Import / Update Opportunity"
+  },
+  {
+   "fieldname": "import_item",
+   "fieldtype": "Button",
+   "label": "Import / Update Item"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "HTML",
+   "label": "Notes",
+   "options": "<h5>Notes:</h5>\n<p style=\"font-size: 12px;\">Data will get between like eg. <b>01-04-2022 00:00:00</b> to <b>02-04-2022 00:00:00</b>\nbecause Salesforce DateTime format is in <b>yyyy-MM-ddTHH:mm:ss.SSSZ</b> <br> </p>\nAt a time 2000 records will get only."
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-10 16:09:47.999768",
+ "modified_by": "Administrator",
+ "module": "Salesforce",
+ "name": "Salesforce Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
